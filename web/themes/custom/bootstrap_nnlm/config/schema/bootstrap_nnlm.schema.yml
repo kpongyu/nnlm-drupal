@@ -1,0 +1,5 @@
+# Schema for the theme setting configuration file of the bootstrap nnlm theme.
+
+THEMENAME.settings:
+  type: theme_settings
+  label: 'Bootstrap NNLM settings'

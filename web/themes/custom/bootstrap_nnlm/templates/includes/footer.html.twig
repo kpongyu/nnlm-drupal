@@ -1,0 +1,52 @@
+  <div class="logoRow">
+    <div class="container">
+    <div class="row">
+        <div class="col-12 d-flex flex-row align-items-center logoRowContent">
+            <img src="{{ base_path ~ directory }}/images/custom/NLM-logo.png" alt="Logo: U.S. National Library of Medicine, National Center for Biotechnology Information" class="footer-logo">
+            <span class="logoRow-text">Funded by the US National Library of Medicine</span>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <div class="feedbackRow ">
+        <div class="container">
+            <div class="row">
+           <div class="col-12 col-md-9 footer-links">
+               <p><a href="#" target="_blank" class="external">National Institute of Health</a> | <a href="#" target="_blank" class="external">National Library of Medicine</a> | <a href="#" target="_blank">Site Map</a></p>
+               <p><a href="#" target="_blank" class="external">NNLM and NATIONAL NETWORK OF LIBRARIES OF MEDICINE are service marks of the US Department of Health and Human Services.</a> </p>
+           </div>
+           <div class="col-12 col-md-4  d-flex flex-row align-items-center justify-content-flex-end feedback-container">
+
+                <button class="feedback-button" data-toggle="modal" data-target="#exampleModal">Website Feedback +</button>
+
+                <button class="back-button" id="back-button">
+                    <img src="{{ base_path ~ directory }}/images/custom/chevron-up.svg" alt="top arrow" width="15">
+                    Top</button>
+  
+             
+           </div>
+           </div>
+        </div>
+    </div>
+
+
+    <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+         
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true"><i class="fa fa-times fa-sm"></i> <span class="close-text">CLOSE</span></span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <div class="resp-container">
+                <iframe class="resp-iframe" src="https://redcap.iths.org/surveys/index.php?s=MW8HPP97DA" gesture="media"  allow="encrypted-media" allowfullscreen></iframe>
+            </div>
+        </div>
+       
+      </div>
+    </div>
+  </div>
